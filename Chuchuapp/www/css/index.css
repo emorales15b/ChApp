@@ -1,0 +1,535 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* make transparent link selection, adjust last value opacity 0 to 1.0 */ }
+
+::-webkit-input-placeholder {
+  padding-left: 20px; }
+
+nav .brand-logo {
+  font-size: 14px !important; }
+
+#pac-input {
+  top: 20% !important;
+  width: 90% !important;
+  border: none !important;
+  left: 2% !important;
+  background: rgba(0, 20, 49, 0.73) !important;
+  padding-left: 5% !important;
+  font-family: 'Open sans-serif', 'HelveticaNeue', Helvetica, Arial, sans-serif !important;
+  font-size: 16px;
+  color: #ffffff !important; }
+#pac-input:focus {
+  background: #001431 !important; }
+
+.title_14px {
+  font-size: 14px; }
+
+.div_map_direccion {
+  position: relative;
+  z-index: 10;
+  top: 56px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 900;
+  background: #0A1A34;
+  padding: 15px 5px;
+  border-top-color: #105b70;
+  border-top-style: solid;
+  border-top-width: 1px; }
+
+.precio_musica {
+  float: right; }
+
+.div_title_banda_music {
+  width: 95%;
+  position: absolute;
+  left: 10px;
+  bottom: 2px;
+  z-index: 10;
+  color: #FFF;
+  font-size: 20px;
+  padding: 0 10px; }
+
+.img_barras_musica {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 5; }
+
+.div_fondo_banda_musica {
+  width: 100%;
+  /*  background-image: url(../img/banda1.png);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  float: left; }
+
+.photo_band_music {
+  width: 100%;
+  height: 100%;
+  max-height: 200px; }
+
+/* ****************************** */
+.text_footer_login {
+  color: #1E5D79;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'sans-serif', 'HelveticaNeue', Helvetica, Arial, sans-serif; }
+
+.div_center_padding25 {
+  text-align: center;
+  padding: 0 25px; }
+
+.button_entrar_main {
+  width: 100%;
+  border-radius: 35px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background: linear-gradient(90deg, #38bad1, #1d5f7a);
+  background: -o-linear-gradient(90deg, #38bad1, #1d5f7a);
+  background: -moz-linear-gradient(90deg, #38bad1, #1d5f7a);
+  background: linear-gradient(90deg, #38bad1, #1d5f7a);
+  color: #ffffff; }
+
+.icon_main_music {
+  width: 30px;
+  margin-top: 5px; }
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  font-size: 12px;
+  font-family: 'Open sans-serif', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0px;
+  background-image: url(../img/img_background_login.jpg);
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+
+.div_text_center {
+  text-align: center; }
+
+.button_facebook_login {
+  background-color: #3b5998;
+  border: navajowhite;
+  color: #ffffff;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 35px; }
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid #00a19a;
+  width: 85%;
+  text-align: center; }
+
+.padding25 {
+  padding: 35px 30px 20px 30px;
+  text-align: center; }
+
+.input_email_main {
+  border-color: #1E5D79;
+  border-style: solid;
+  border-radius: 35px;
+  color: #ffffff;
+  padding: 10px 27px;
+  width: 80% !important;
+  font-size: 25px;
+  height: 2rem !important; }
+.input_email_main:hover {
+  border: 2px solid #26a69a !important;
+  box-shadow: none !important; }
+
+.input_password_main {
+  border-color: #1E5D79;
+  border-style: solid;
+  border-radius: 35px;
+  color: #ffffff;
+  padding: 10px 27px;
+  width: 80% !important;
+  font-size: 25px;
+  margin-top: 20px;
+  height: 2rem !important; }
+.input_password_main:hover {
+  border: 2px solid #26a69a !important;
+  box-shadow: none !important; }
+
+.title_login_instructions {
+  color: #ffffff;
+  font-family: 'sans-serif', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  padding: 0 25px;
+  position: relative;
+  margin-top: 80px; }
+
+.icon_main_music {
+  position: relative;
+  float: right;
+  margin-right: 14px; }
+
+/* Portrait layout (default) */
+.app {
+  background: url(../img/logo.png) no-repeat center top;
+  /* 170px x 200px */
+  position: absolute;
+  /* position in the center of the screen */
+  left: 50%;
+  top: 50%;
+  height: 50px;
+  /* text area height */
+  width: 225px;
+  /* text area width */
+  text-align: center;
+  padding: 180px 0px 0px 0px;
+  /* image height is 200px (bottom 20px are overlapped with text) */
+  margin: -115px 0px 0px -112px;
+  /* offset vertical: half of image height and text area height */
+  /* offset horizontal: half of text area width */ }
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1 / 1) and (min-width: 400px) {
+  .app {
+    background-position: left center;
+    padding: 75px 0px 75px 170px;
+    /* padding-top + padding-bottom + text area = image height */
+    margin: -90px 0px 0px -198px;
+    /* offset vertical: half of image height */
+    /* offset horizontal: half of image width and text area width */ } }
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px;
+  overflow: visible;
+  padding: 0px;
+  text-align: center; }
+
+.event {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin: 0px 30px;
+  padding: 2px 0px; }
+
+.event.listening {
+  background-color: #333333;
+  display: block; }
+
+.event.received {
+  background-color: #4B946A;
+  display: none; }
+
+@keyframes fade {
+  from {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.4; }
+  to {
+    opacity: 1.0; } }
+@-webkit-keyframes fade {
+  from {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.4; }
+  to {
+    opacity: 1.0; } }
+.blink {
+  animation: fade 3000ms infinite;
+  -webkit-animation: fade 3000ms infinite; }
+
+/* CODIGO SASS */
+nav {
+  top: 0 !important; }
+
+.buscar_busqueda {
+  border-color: #1E5D79;
+  border-bottom-style: solid;
+  border-right: none;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  color: #1E5D79;
+  padding: 10px 58px 10px 0px;
+  width: 80% !important;
+  font-size: 25px;
+  height: 2rem !important; }
+
+.title_descubre_bandas {
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: 'sans-serif', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  padding: 0px 25px;
+  position: relative;
+  margin-bottom: 30px; }
+
+.collection {
+  border: none !important; }
+.collection .collection-item {
+  background: none !important;
+  box-shadow: 0px -6px 18px #1E5D7E !important;
+  border-bottom: 3px solid #1E5D7E !important; }
+.collection .collection-item.avatar {
+  min-height: 72px !important;
+  padding-left: 75px !important;
+  display: block !important; }
+.collection .collection-item.avatar .title {
+  font-size: 25px !important;
+  color: #31a3bb !important;
+  position: relative;
+  font-weight: bold;
+  top: 17px;
+  font-family: 'Open sans-serif', 'HelveticaNeue', Helvetica, Arial, sans-serif; }
+.collection .collection-item.avatar .secondary-content {
+  top: 27px !important;
+  color: #205D7A !important;
+  right: 16px !important; }
+
+.icon_search {
+  color: #ffffff;
+  position: absolute;
+  margin-top: 1px;
+  background: #319FB8;
+  right: 26px;
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 13px; }
+
+.padding_busqueda {
+  padding: 35px 17px 20px 10px;
+  text-align: center; }
+
+.icon_chevron_left {
+  margin-top: 7px;
+  font-size: 22px;
+  border-radius: 20px;
+  padding: 5px 8px;
+  border: 3px solid #1d5e7a;
+  color: #1d5e7a; }
+
+.margin018 {
+  margin: 0 18px; }
+
+.div_fondo_banda_video {
+  width: 100%;
+  height: 160px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-top: 54px; }
+
+iframe {
+  border-color: #09131D; }
+
+.div_title_section_banda {
+  color: #ffffff;
+  font-size: 30px; }
+
+.div_subtitle_section_banda {
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 0 30px; }
+
+.button_contratar_banda {
+  border: none;
+  color: #ffffff;
+  width: 100%;
+  background: linear-gradient(90deg, #38BAD0, #1E5E79);
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 35px;
+  margin-top: 20px; }
+
+.img_main_horas {
+  width: 100%;
+  height: auto; }
+
+.title_minimo_horas {
+  color: #20667F;
+  font-size: 14px;
+  font-weight: 600; }
+
+a.carousel-item.active {
+  color: #ffffff;
+  font-size: 65px;
+  background: linear-gradient(90deg, #38BAD0, #1E5E79);
+  border-radius: 50px;
+  height: 100px !important;
+  margin-top: 50px;
+  text-align: center;
+  width: 100px !important; }
+
+.carousel {
+  height: 170px !important; }
+.carousel .carousel-item {
+  left: 50px !important; }
+
+a.carousel-item {
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-top: 50px; }
+
+.title_precion_banda {
+  color: #35B2CE;
+  font-size: 17px;
+  width: 130px;
+  display: none;
+  margin-top: 12px;
+  right: 20px;
+  position: relative; }
+
+.carousel-item.active .title_precion_banda {
+  display: block; }
+
+.input_select_fecha {
+  border-color: #6ECEF6;
+  border-width: 3px;
+  border-radius: 5px;
+  width: 85% !important;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px; }
+
+.alertify-notifier .ajs-message.ajs-error {
+  background: rgba(255, 255, 255, 0.95) !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+  border-radius: 5px !important; }
+
+.title_menu_navbar {
+  text-align: center;
+  color: #245C6F; }
+
+.title_a_menu_navbar {
+  font-weight: bold !important;
+  letter-spacing: 6px; }
+
+.position_nav_back {
+  position: relative;
+  margin-left: 14px; }
+
+.li_menu_login {
+  background: #081634;
+  text-align: center; }
+
+.sidebar_login .li_menu_login .title_a_menu_navbar_login_name {
+  color: #ffffff !important;
+  font-size: 14px; }
+
+.sidebar_login {
+  background: linear-gradient(90deg, #edf2ff, #ffffff) !important; }
+
+.sidebar_login li > a {
+  color: rgba(0, 0, 0, 0.87) !important;
+  font-size: 12px !important;
+  line-height: 46px;
+  padding: 0 15px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0px !important; }
+
+.img_menu_avatar {
+  width: 60px;
+  position: relative;
+  top: 20px; }
+
+#map {
+  height: 90%;
+  width: 100%; }
+
+#panel {
+  position: absolute;
+  top: 235px;
+  left: 35%;
+  z-index: 5;
+  padding: 0px;
+  border: 0px solid #999;
+  text-align: center;
+  width: 150px;
+  color: #fff;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px; }
+
+#map_html {
+  height: 86%;
+  margin: 0;
+  padding: 0; }
+
+.div_map_search {
+  position: relative;
+  z-index: 10;
+  top: 70px; }
+
+.input_search_map {
+  background-color: #ffffff !important;
+  width: 83% !important;
+  position: relative;
+  left: 5%;
+  border: none !important;
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.75) !important;
+  padding: 0px 0px 0px 3px;
+  font-size: 14px; }
+
+.input_search_map::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #5a5a5a !important; }
+
+.input_search_map:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #5a5a5a; }
+
+.input_search_map::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #5a5a5a; }
+
+.input_search_map:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #5a5a5a; }
+
+.input-field .prefix {
+  position: relative !important;
+  width: 2rem !important;
+  left: 22px; }
+
+.page-footer {
+  padding-top: 10px !important;
+  color: #fff;
+  background-color: initial !important;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 8px;
+  width: 100%;
+  height: 8%;
+  font-size: 16px; }
+
+.fixed-action-btn {
+  right: 13px !important;
+  bottom: 90px !important; }
+
+.color_btn_plus {
+  color: #001431; }
+
+/*# sourceMappingURL=index.css.map */
